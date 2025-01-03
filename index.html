@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaf kore den madam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="round-1">
+        <p>East or West, Faija is the best.</p>
+        <button onclick="answer1('yes')">Yes</button>
+        <button onclick="answer1('no')">No</button>
+    </div>
+
+    <div id="round-2" class="hidden">
+        <p>Is Faija kind hearted?</p>
+        <button onclick="answer2('yes')">Yes</button>
+        <button onclick="answer2('no')">No</button>
+    </div>
+
+    <div id="round-3" class="hidden">
+        <p>Faija plz maaf more dao ToT</p>
+        <button id="yes-button" onclick="answer3('yes')">Yes</button>
+        <button id="no-button" onclick="answer3('no')">No</button>
+    </div>
+
+    <div id="thank-you" class="hidden"></div>
+    <div id="try-again" class="hidden">Beyadob polapain! Try again.</div>
+    <div id="try-again-2" class="hidden">Beyadob chele tahole ke kind hearted. Try again.</div>
+    <div id="try-again-3" class="hidden">Plz maaf koro!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
